@@ -28,8 +28,8 @@ using DataFrames,Pkg,Pickle,MolecularGraph
 import Base.Iterators
 
 
-sdf=sdfilereader("/Users/mindy/百度云同步盘/StudyResearch/SeminarPraticalAI/data/tox21.sdf")
-sdfmol = sdftomol("/Users/mindy/百度云同步盘/StudyResearch/Seminar:Pratical AI/data/tox21.sdf")
+sdf=sdfilereader("data/tox21.sdf")
+sdfmol = sdftomol("/data/tox21.sdf")
 precalculate!(sdfmol)
 molsvg = drawsvg(sdfmol,300,300)
 display("image/svg+xml",  molsvg)
