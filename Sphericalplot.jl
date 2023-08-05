@@ -1,4 +1,4 @@
-# by Lazaro Alonso
+# code adapted from Lazaro Alonso
 using GLMakie, ColorSchemes
 using AssociatedLegendrePolynomials
 GLMakie.activate!()
