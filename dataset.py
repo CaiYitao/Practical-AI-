@@ -37,7 +37,7 @@ class TOX21(InMemoryDataset):
 
     @property
     def raw_file_names(self) -> List[str]:
-        return ["/system/user/publicwork/yitaocai/confdata.pkl","/system/user/publicwork/yitaocai/PracticalAI/tox21.csv"]
+        return ["~/confdata.pkl","~/tox21.csv"]
 
 
     @ property
