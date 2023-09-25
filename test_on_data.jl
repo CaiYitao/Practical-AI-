@@ -11,7 +11,7 @@ using CSV,DataFrames,Pkg,Pickle,MolecularGraph,SDFReader,MolecularGraph.Graph
 using PyCall
 
 # ╔═╡ d64f5e6e-cf18-4a1b-8ce9-2761573f9659
-data = CSV.read("/Users/mindy/百度云同步盘/StudyResearch/Seminar:Pratical AI/data/test/tox21_dense_test.csv",DataFrame)
+data = CSV.read("~/test/tox21_dense_test.csv",DataFrame)
 
 # ╔═╡ 22a4454f-4814-438e-bde4-75c23f7a39e5
 ENV["PYTHON"]="/usr/local/Caskroom/miniconda/base/envs/confgf/bin/python"
