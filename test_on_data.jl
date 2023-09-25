@@ -37,10 +37,10 @@ begin
 end
 
 # ╔═╡ 3cc51ff5-7b08-46a6-9e94-5a475cf0a1ec
-sdf=sdfilereader("/Users/mindy/百度云同步盘/StudyResearch/Seminar:Pratical AI/data/tox21.sdf")
+sdf=sdfilereader("~/tox21.sdf")
 
 # ╔═╡ 676bc380-6b68-456d-a2c3-e56575d534e5
-sdfmol = sdftomol("/Users/mindy/百度云同步盘/StudyResearch/Seminar:Pratical AI/data/tox21.sdf")
+sdfmol = sdftomol("~/tox21.sdf")
 
 # ╔═╡ 8f945996-6187-4760-be89-5a1c5c7d8d51
 precalculate!(sdfmol)
